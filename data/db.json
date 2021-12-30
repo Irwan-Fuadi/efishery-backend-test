@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "phone": "085155356611",
+      "name": "Irwan Fuadi",
+      "password": "UWFC",
+      "role": "user",
+      "created_at": 1640862961015
+    },
+    {
+      "phone": "085155356612",
+      "name": "Admin Irwan Fuadi",
+      "password": "ZNIC",
+      "role": "admin",
+      "created_at": 1640863895987
+    }
+  ]
+}

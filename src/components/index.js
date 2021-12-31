@@ -3,7 +3,8 @@
 const router = require("express").Router();
 
 const routerList = {
-    "auth": "auth/authAPI"
+    "auth": "auth/authAPI",
+    "fetch": "fetch/fetchAPI"
 }
 
 for (let item in routerList) {

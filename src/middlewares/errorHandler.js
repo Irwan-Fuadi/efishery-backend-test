@@ -13,6 +13,11 @@ module.exports = (err, req, res, next) => {
                 .status(401)
                 .send(responseUtils.failed({ error: err.message, code: 401 }))
             break
+        case "Forbidden":
+            res
+                .status(403)
+                .send(responseUtils.failed({ error: err.message, code: 403 }))
+            break
         case "Unauhtorized":
             res
                 .status(401)

@@ -1,12 +1,4 @@
-const moment = require('moment');
-
 module.exports = {
-    getLocalTime: async() => {
-        return moment()
-            .tz("Asia/Jakarta")
-            .format();
-    },
-
     randomStr: (length) => {
         let s = '';
         while (s.length < length) s += Math.random().toString(36).substr(2, length - s.length);

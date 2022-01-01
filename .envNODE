@@ -1,0 +1,12 @@
+NODE_ENV=development
+PORT=3079
+APIVERSION=v1
+SECRET_KEY=BEeFishery
+AUTH_TOKEN_EXPIRATION=60m
+DBFILE_NAME=db.json
+
+URL_RESOURCE=https://stein.efishery.com/v1/storages/5e1edf521073e315924ceab4/list
+
+URL_CONVERTER=https://free.currconv.com/api/v7/convert?q=IDR_USD,USD_IDR&compact=ultra&apiKey=
+API_KEY_CONVERTER=40e0e1448e72a3fb568f
+CACHE_KEY=converted-usd

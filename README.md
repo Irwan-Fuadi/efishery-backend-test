@@ -97,7 +97,7 @@ http://localhost:port/api/v1/fetch/alive
 
 ### Context Diagram
 
-![Context Diagram]()
+![Context Diagram](https://github.com/Irwan-Fuadi/efishery-backend-test/blob/master/Context%20Diagram.png?raw=true)
 
 ### Deployment Diagram
 

@@ -101,4 +101,4 @@ http://localhost:port/api/v1/fetch/alive
 
 ### Deployment Diagram
 
-![Deployment Diagram]()
+![Deployment Diagram](https://github.com/Irwan-Fuadi/efishery-backend-test/blob/master/Deployment%20Diagram.png?raw=true)

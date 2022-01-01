@@ -1,0 +1,19 @@
+version: '3.4'
+
+services:
+  authapp:
+    image: efisherybackendtestauth
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    environment:
+      NODE_ENV: production
+    ports:
+      - 5001:3079
+  fetchapp:
+    image: efisherybackendtestfetch
+    build:
+      context: .
+      dockerfile: ./fetch-py/Dockerfile
+    ports:
+      - 5001:3078
